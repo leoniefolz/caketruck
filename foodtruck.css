@@ -1,0 +1,258 @@
+@font-face {
+	src: url('fonts/harmony.otf') format("opentype");
+	font-family: "harmony";
+}
+
+html{background-color: #ff2882;
+	font-family:arial;
+	}
+
+body{
+	margin: 0;
+}
+
+	.hometitelbild{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		aspect-ratio: 3550 / 1624;
+
+		background-image: url(bilder/foodtruck-web.jpg);
+		background-size: cover;
+		}
+
+	.hometitelbild img {
+		width: 100%;
+		height: auto;
+	}
+
+	.angebottitelbild{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		aspect-ratio: 3550 / 1624;
+
+		background-image: url(bilder/verkäufer.png);
+		background-size: cover;
+		}
+
+	.angebottitelbild img {
+		width: 100%;
+		height: auto;
+	}
+
+	.teamtitelbild{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		aspect-ratio: 3550 / 1624;
+
+		background-image: url(bilder/team.png);
+		background-size: cover;
+	}
+
+	.teamtitelbild img {
+		width: 100%;
+		height: auto;
+	}
+
+
+	.anfragetitelbild{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		aspect-ratio: 3550 / 1624;
+
+		background-image: url(bilder/anfrage.png);
+		background-size: cover;
+	}
+
+	.anfragetitelbild img {
+		width: 100%;
+		height: auto;
+	}
+
+
+	.header{
+		display:flex;
+		justify-content:center;
+		justify-content:space-around;
+		flex-direction:row;
+		align-items:center;
+		margin-block-start: 25px;
+	}
+
+	a.standorte {
+		color: #ff2882;
+		background-color:#ffd600;
+		text-align: center;
+		text-decoration: none;
+		font-size: 30px;
+  		padding:20px 40px 20px 40px;
+	}
+	
+
+	.header nav a {
+		color:#ffc8e6;
+		margin:8px;
+		display: block;
+		text-decoration: none;
+	}
+
+	.header nav a:hover {
+		color:#ffd600;
+		
+	}
+
+	.container{
+		display: flex;
+		padding: 50px;
+		gap: 50px;
+		align-items: flex-start;
+	}
+	
+	.text h1 {
+		color: #ffd600;
+		font-family:'harmony', sans-serif;
+		font-size: 150px;
+		max-width: 600px;
+		margin:50px;
+		margin-block-end: 10px;
+		flex:2;
+		font-weight: normal;
+		line-height: 0.7;
+	}
+
+	.fliesstext {
+		max-width: 600px;
+		color: #ffc8e6;
+		line-height: 1.4;
+	}
+
+	.fliesstext li {
+		font-weight: bold;
+		color:#c8e6fa;
+	}
+
+	.angebot {
+		flex: 0;
+		flex-basis: 200px;
+		text-align: center;
+		font-size: 30px;
+		padding-top: 1rem;
+	}
+
+	.angebot a {
+		display: block;
+		color: #ff2882;
+		background-color:#ffd600;
+		padding: 20px 40px;
+		text-decoration:none;
+	}
+
+	li {
+		font-weight: bold;
+		color: #ffd600;
+		list-style: none;
+		margin: 11px;
+	
+	}
+
+	figure{
+		display: flex;
+  		flex-direction:row;
+  		flex-wrap:wrap;
+  		padding:20px;
+  		justify-content: center;
+  		gap:100px;
+	}
+
+	figcaption{
+		color: #ffc8e6;	
+		text-align:left;
+		display:flex
+		padding:10px;
+		margin-top: 20px;
+		max-width: 300px;
+	}
+
+	figure p{
+		color: #ffc8e6;	
+		text-align:left;
+		display:flex
+		padding:10px;
+		margin-top: 20px;
+		max-width: 300px;
+	}
+
+	form{
+		color:#ffc8e6;
+		margin:50px;
+		font-family:arial;
+	}
+
+	input,textarea{
+		background-color:#ffc8e6;
+		border:0px;
+		border-radius: 20px;
+		color:#ff2882;
+		padding: 20px;
+	}
+
+
+	.button input{
+		background-color:#ffd600;
+	}
+
+	.button input:hover {
+		background-color:#ffd600;
+		opacity: 80%;
+	}
+
+	footer{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		gap:5px;
+		font-size: 10px;
+		margin: 0 50px 80px 50px;
+		color:#ff2882;		
+		background-color:#ffc8e6 ;
+		padding: 20px 20px 20px 20px ;	
+
+	}
+	.icons{
+		align-self: center;
+	}
+
+
+	.torte {
+		position: relative;
+	}
+	
+	.torte img {
+		position: absolute;
+		right: 200px;
+		top: -125px;
+		display: block;
+		margin-inline: 0;
+		margin-bottom: 0;
+		
+	}
+
+	footer a {
+		text-decoration:none;
+		font-weight: bold;
+		color: #ff2882;
+		margin-top:9px;
+	}
+	
+background-color:#ff2882;
+		color:#ffd600;
+		border-color:#ffd600;
+		border:10px;
+
